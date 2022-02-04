@@ -33,7 +33,7 @@
 		
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" method="post" action="php/signup.php">
 					<span class="login100-form-title p-b-10 p-t-10">
 						MusiCollab
 					</span>
@@ -49,45 +49,44 @@
 						Sign Up
 					</span>
                     <div class="wrap-input100 validate-input" data-validate = "Enter Email">
-						<input class="input100" type="text" name="Email" placeholder="Email">
+						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
-                    <div class="wrap-input100 validate-input" data-validate = "Enter Email">
-						<input class="input100" type="text" name="Email" placeholder="Username">
+                    <div class="wrap-input100 validate-input" data-validate = "Enter Username">
+						<input class="input100" type="text" name="username" placeholder="Username">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
-					<div class="wrap-input100 validate-input" data-validate = "Enter Email">
-						<input class="input100" type="text" name="Email" placeholder="Your Artist Name">
+					<div class="wrap-input100 validate-input" data-validate = "Enter Artist Name">
+						<input class="input100" type="text" name="artist_name" placeholder="Your Artist Name">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
                    
-                    <div class="wrap-input100 validate-input" data-validate = "Enter Email">
-						<input class="input100" type="text" name="Email" placeholder="Contact Info">
+                    <div class="wrap-input100 validate-input" data-validate = "Enter Contact">
+						<input class="input100" type="text" name="contact" placeholder="Contact Info">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
-                    <div class="wrap-input100 validate-input" data-validate = "Enter Email">
-						<input class="input100" type="text" name="Email" placeholder="Link to your Musics">
+                    <div class="wrap-input100 validate-input" data-validate = "Enter Link">
+						<input class="input100" type="text" name="link" placeholder="Link to your Musics">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
 					</div>
                    
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+						<input class="input100" type="password" name="password" placeholder="Password">
 						<span class="focus-input100" data-placeholder="&#xf191;"></span>
 					</div>
-                  <!-- <div class="wrap-input100 validate-input" data-validate = "Enter Email"></div> -->
-                  <label for="myfile" class="profile">Upload your profile picture:</label>
-                 <br><input type="file" name="profilePicture"><br><br>
+                  <!-- <label for="myfile" class="profile">Upload your profile picture:</label>
+                 <br><input type="file" name="profilePicture"><br><br> -->
 
 				
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button class="login100-form-btn" name="signup" type="signup">
 							Signup
 						</button>
 				
 					
 					</div>
 					<div class="text-center p-t-15">
-						<a class="txt1" href="./signup.html">
+						<a class="txt1" href="./index.html">
 							Already Registered? Log in Now!
 						</a> <br>
 						<!-- <a class="txt1" href="">
