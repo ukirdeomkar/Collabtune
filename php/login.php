@@ -1,6 +1,6 @@
 <?php	
 session_start();        
-include('./Connect.php');
+include('Connect.php');
 
 if(isset($_POST['login']))
 {
@@ -8,6 +8,8 @@ if(isset($_POST['login']))
 	$password = $_POST['password'];
 	$query1 = " SELECT * FROM `user` WHERE `email_id` = '$email' ";
     $res1 = mysqli_query($Connect,$query1);
+
+
 
 	if(mysqli_num_rows($res1)>0)
 	{
@@ -17,8 +19,9 @@ if(isset($_POST['login']))
             // $_SESSION['user_username']=$data['username'];
             // $_SESSION['name']  =  $data['name'];
             // $_SESSION['phonenumber']=$data['phonenumber'];
-            $_SESSION['email_id']=$data['email'];
-            echo("<script>window.location = '../home.html'</script>");
+            $_SESSION['email_id']=$data['email_id'];
+
+            echo("<script>window.location = '../home.php'</script>");
 		}
 		else
 		{
@@ -32,10 +35,10 @@ if(isset($_POST['login']))
         echo("<script>window.location = '../index.html'</script>");
 	}
 }
-else
-{
-    echo("<script>alert('Undefined Action!')</script>");
-    echo("<script>window.location = '../index.html'</script>");
-}
+// else
+// {
+//     echo("<script>alert('Undefined Action!')</script>");
+//     echo("<script>window.location = '../index.html'</script>");
+// }
 
 ?>

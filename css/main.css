@@ -285,6 +285,9 @@ iframe {
   padding: 0 5px 0 38px;
 }
 
+.input100 option{
+  background-color: #b224ef;
+}
 /*---------------------------------------------*/ 
 .focus-input100 {
   position: absolute;
