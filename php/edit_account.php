@@ -47,7 +47,7 @@ if(isset($_POST['edit_profile'])){
 
 
     if($user_password == $password_check){
-        echo 'can be editted';
+     
         $query = mysqli_query($Connect,"UPDATE `user` SET `user_username`='$username_new',`artist_name`='$artist_name_new',`contact`='$contact_new',`link`='$link_new',`bio`='$bio_new',`genre`='$genre_new' WHERE `email_id` = '$session'");
         if($query == true){
             echo("<script>alert('Profile Updated Succesfully')</script>");

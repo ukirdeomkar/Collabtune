@@ -1,3 +1,14 @@
+<?php 
+
+include('./php/login.php');
+@$session = $_SESSION['email_id'] ;
+if(@$session == false){
+    echo("<script>alert('Session Expired !! Please Login agian')</script>");
+    echo("<script>window.location = './index.php'</script>");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

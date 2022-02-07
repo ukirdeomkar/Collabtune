@@ -1,3 +1,8 @@
+<?php
+include('./php/login.php');
+@$session = $_SESSION['email_id'] or die("SESSION Expired !! Login Again");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

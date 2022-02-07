@@ -1,7 +1,11 @@
 
 <?php
 include('./php/login.php');
-@$session = $_SESSION['email_id'] or die("SESSION Expired !! Login Again");
+@$session = $_SESSION['email_id'] ;
+if(@$session == false){
+    echo("<script>alert('Session Expired !! Please Login agian')</script>");
+    echo("<script>window.location = './index.php'</script>");
+}
 $query = mysqli_query($Connect, "SELECT * FROM `user` WHERE `email_id`='$session'");
 $row = mysqli_fetch_assoc($query);
 $artist_name = $row['artist_name'];

@@ -178,10 +178,10 @@ $link = $row['link'];
                             <hr>
                             <div class="row">
                               <div class="col-sm-3">
-                                <h6 class="mb-0">Contact</h6>
+                                <h6 class="mb-0">Instagram Profile</h6>
                               </div>
                               <div class="col-sm-9 text-secondary">
-                              <?php echo $contact?>
+                              <a href="<?php echo $contact?>" ><?php echo $contact?></a>
                               </div>
                             </div>
                             <hr>
