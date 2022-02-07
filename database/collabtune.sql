@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 04, 2022 at 01:58 PM
+-- Generation Time: Feb 07, 2022 at 09:30 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.1.1
 
@@ -41,24 +41,25 @@ CREATE TABLE `artist` (
 
 CREATE TABLE `user` (
   `user_username` varchar(50) NOT NULL,
-  `user_password` varchar(10) NOT NULL,
+  `user_password` varchar(50) NOT NULL,
   `email_id` varchar(50) NOT NULL,
   `artist_name` varchar(15) NOT NULL,
-  `contact` bigint(12) NOT NULL,
-  `link` varchar(200) NOT NULL
+  `contact` varchar(500) NOT NULL,
+  `link` varchar(200) NOT NULL,
+  `genre` varchar(30) NOT NULL,
+  `profile_pic` varchar(500) NOT NULL,
+  `bio` varchar(1500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`user_username`, `user_password`, `email_id`, `artist_name`, `contact`, `link`) VALUES
-('dwsdws', 'qsxws', 'dsc@ds.com', '', 9999, 'sxaas'),
-('husws', 'dxwsx', 'dc@dc.com', 'dndj', 9999, 'dxwsx'),
-('ou', 'ou123', 'ukirdeomkar4@gmail.com', 'CHibisou', 8355871633, 'https://www.youtube.com/watch?v=0wZjMZTVxzI&ab_channel=LyurGG'),
-('jnsqjs', 'dededed', 'gsws@gmail.com', 'sqas', 83773, 'cedced'),
-('Kshitija2001', 'Kshitija', 'bharambekshitija2@gmail.com', 'Kshitija123', 1234567809, 'hjvkjb '),
-('aa', 'aa', 'a@a.com', 'aaaa', 8118181, 'dxesde');
+INSERT INTO `user` (`user_username`, `user_password`, `email_id`, `artist_name`, `contact`, `link`, `genre`, `profile_pic`, `bio`) VALUES
+('Kshitija2001', 'Kshitija', 'bharambekshitija2@gmail.com', 'Kshitija123', 'https://www.instagram.com/_kshitijaaa_/', 'https://open.spotify.com/user/owb2y8mbdidlzu8v9kqwqzm50', 'Hip-hop', '0 (1).jpg', 'Hi My name is kshitija'),
+('Kshitija20', 'Kshitija1', 'ksh.bha.rt19@rait.ac.in', 'Kshitija1', 'https://www.instagram.com/_kshitijaaa_/', 'https://open.spotify.com/user/owb2y8mbdidlzu8v9kqwqzm50', 'Electronic', '', ''),
+('10005025', '1234567', 'sarojborole2@gmail.com', 'kshitija', 'https://www.instagram.com/_kshitijaaa_/', 'https://open.spotify.com/user/owb2y8mbdidlzu8v9kqwqzm50', 'Country', 'avatars-000227160415-hq9z8z-t500x500.jpg', 'Hi My name is kshitija'),
+('ou', 'ou123', 'ukirdeomkar4@gmail.com', 'CHibisou', 'https://www.youtube.com/watch?v=dB6oQ-OeJ5A&ab_channel=CakeCrab', 'https://www.youtube.com/watch?v=dB6oQ-OeJ5A&ab_channel=CakeCrab', 'Rock', '', '');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
