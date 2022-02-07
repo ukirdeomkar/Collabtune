@@ -197,10 +197,10 @@ $link = $row['link'];
                               <div class="mt-3">
                                 <h4><?php echo $artist_name ?></h4>
                                 <p class="text-secondary mb-1"><?php echo $genre?></p>
-                                <!-- <form action="./php/upload.php" method="post" enctype="multipart/form-data">
+                                <form action="./php/upload.php" method="post" enctype="multipart/form-data">
                                   <input class="form-control" type="file" name="aimage">
                                   <input type="submit" name="Upload" value="Upload">
-                              </form> -->
+                              </form>
                                 <!-- <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p> -->
                                 <!-- <button class="btn btn-outline-primary">Message</button> -->
                               </div>
@@ -235,12 +235,22 @@ $link = $row['link'];
                       <div class="col-md-8">
                         <div class="card mb-3">
                           <div class="card-body">
+                            <form method="post" action="./php/edit_account.php">
                             <div class="row">
                               <div class="col-sm-3">
                                 <h6 class="mb-0">Username</h6>
                               </div>
                               <div class="col-sm-9 text-secondary">
-                                <?php echo $user_usernmae?>
+                                <input type="text" placeholder="Enter Username" name="username">
+                              </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                              <div class="col-sm-3">
+                                <h6 class="mb-0">Artist Name</h6>
+                              </div>
+                              <div class="col-sm-9 text-secondary">
+                                <input type="text" placeholder="Enter Your Artist Name" name="artist_name">
                               </div>
                             </div>
                             <hr>
@@ -249,7 +259,7 @@ $link = $row['link'];
                                 <h6 class="mb-0">Contact</h6>
                               </div>
                               <div class="col-sm-9 text-secondary">
-                              <?php echo $contact?>
+                              <input type="text" placeholder="Enter Instagram Profile" name="contact">
                               </div>
                             </div>
                             <hr>
@@ -258,7 +268,8 @@ $link = $row['link'];
                                 <h6 class="mb-0">Link to music</h6>
                               </div>
                               <div class="col-sm-9 text-secondary">
-                                <a href="<?php echo $link?>"><?php echo $link?></a>
+                              <input type="text" placeholder="Enter Link to your music" name="link">
+
                               </div>
                             </div>
                             
@@ -269,7 +280,17 @@ $link = $row['link'];
                                 <h6 class="mb-0">Genre</h6>
                               </div>
                               <div class="col-sm-9 text-secondary">
-                                <?php echo $genre?>
+                              <select class="input100" type="text" name="genre" placeholder="Genre" name="genre">
+							<option  value="null">Select Genre</option>
+							<option value="Blues">Blues</option>
+							<option value="Classical">Classical</option>
+							<option value="Country">Country</option>
+							<option value="Electronic">Electronic</option>
+							<option value="Folk"> Folk</option>
+							<option value="Hip-hop">Hip-hop</option>
+							<option value="Jazz">Jazz</option>
+							<option value="Rock">Rock</option>
+						</select>
                               </div>
                             </div>
                             <hr>
@@ -283,9 +304,17 @@ $link = $row['link'];
                             </div>
                             <hr>
                             <div class="row">
+                              <div class="col-sm-3">
+                                <h6 class="mb-0">Password</h6>
+                              </div>
+                              <div class="col-sm-9 text-secondary">
+                              <input type="password" placeholder="Enter Current Password" name="password">
+                              </div>
+                            </div>
+                            <hr>
+                            <div class="row">
                               <div class="col-sm-12">
-                                <a class="btn btn-info " target="__blank" href="edit_account.php">Edit</a>
-                                <a class="btn btn-info "  href="./php/logout.php">Logout</a>
+                                <button class="btn btn-info " name="edit_profile">Submit</button>
 
                               </div>
                             </div>

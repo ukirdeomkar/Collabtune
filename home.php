@@ -51,19 +51,19 @@ $artist_name = $row['artist_name']
         <div class="collapse navbar-collapse" id="navbar-nav-header">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="home.html">Home</a>
+                    <a class="nav-link" href="home.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">Forum</a>
+                    <a class="nav-link" href="about.php">Forum</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Record labels</a>
+                    <a class="nav-link" href="blog.php">Record labels</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="account.php"> Account</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
                 <li class="nav-item">
                 <li class="nav-item">

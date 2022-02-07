@@ -43,16 +43,16 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">Forum</a>
+                    <a class="nav-link" href="about.php">Forum</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Record labels</a>
+                    <a class="nav-link" href="blog.php">Record labels</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html"> Account</a>
+                    <a class="nav-link" href="blog.php"> Account</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
                 <!-- <li class="nav-item">
                 <li class="nav-item">

@@ -21,12 +21,12 @@
      if(strcmp($data['user_username'],$username)==0)
      {
        echo("<script>alert('Username is Already Registred!')</script>");
-       echo("<script>window.location = '../signup.html'</script>");
+       echo("<script>window.location = '../signup.php'</script>");
      }
      else if(strcmp($data['email_id'],$email)==0 )
      {
        echo("<script>alert('Email ID is Already Registred!')</script>");
-       echo("<script>window.location = '../signup.html'</script>");
+       echo("<script>window.location = '../signup.php'</script>");
      }
      
      else
@@ -35,13 +35,13 @@
        $res1 = mysqli_query($Connect,$query1);
    
        echo("<script>alert('You have Sucessfully Registred!')</script>");
-       echo("<script>window.location = '../index.html'</script>");
+       echo("<script>window.location = '../index.php'</script>");
      }
   }
   else
   {
      echo("<script>alert('Undefined action!')</script>");
-     echo("<script>window.location = '../signup.html'</script>");
+     echo("<script>window.location = '../signup.php'</script>");
   }
  
  

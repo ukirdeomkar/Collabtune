@@ -1,3 +1,14 @@
+<?php
+include('./php/login.php');
+@$session = $_SESSION['email_id'];
+if (@$_SESSION['email_id']==true){
+	echo("<script>window.location = 'home.php'</script>");
+
+}
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,7 +85,7 @@
 					
 					</div>
 					<div class="text-center p-t-15">
-						<a class="txt1" href="./signup.html">
+						<a class="txt1" href="./signup.php">
 							New here? Sign Up now!
 						</a> <br>
 						<!-- <a class="txt1" href="">

@@ -100,7 +100,7 @@
 					
 					</div>
 					<div class="text-center p-t-15">
-						<a class="txt1" href="./index.html">
+						<a class="txt1" href="./index.php">
 							Already Registered? Log in Now!
 						</a> <br>
 						<!-- <a class="txt1" href="">

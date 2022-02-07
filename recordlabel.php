@@ -2,13 +2,10 @@
 <html lang="en">
 
 <head>
-    <!--
-     - Roxy: Bootstrap template by GettTemplates.com
-     - https://gettemplates.co/roxy
-    -->
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Roxy by GetTemplates.co</title>
+    <title>Record Label</title>
     <meta name="description" content="Roxy">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -64,7 +61,7 @@
 </div>	<nav id="header-navbar" class="navbar navbar-expand-lg py-4">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center text-white" href="/">
-            <h3 class="font-weight-bolder mb-0">ROXY</h3>
+            <h3 class="font-weight-bolder mb-0">Collabtune</h3>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
             <span class="lnr lnr-menu"></span>
@@ -75,16 +72,16 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">Forum</a>
+                    <a class="nav-link" href="about.php">Forum</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Record labels</a>
+                    <a class="nav-link" href="blog.php">Record labels</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html"> Account</a>
+                    <a class="nav-link" href="blog.php"> Account</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
                 <li class="nav-item">
                 <li class="nav-item">
@@ -133,16 +130,15 @@
 	
 </div>	<div class="jumbotron jumbotron-single d-flex align-items-center" style="background-image: url(images/photo-11.jpg)">
   <div class="container text-center">
-    <h1 class="display-2 mb-4">My Account</h1>
+    <h1 class="display-2 mb-4">Record Labels</h1>
   </div>
 </div>	<!-- Blog Section -->
 <section id="blog" class="bg-grey">
     <div class="container">
         <div class="section-content">
             <div class="title-wrap mb-5" data-aos="fade-up">
-                <h2 class="section-title">Latest <b>news</b></h2>
-                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            </div>
+                <h2 class="section-title">List of record labels around the world based on different genres.</h2>
+    </div>
             <div class="row">
                 <!-- Blog -->
                 <div class="col-md-12 blog-holder">
@@ -151,102 +147,43 @@
                         <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
                             <div class="blog-item">
                                 <div class="blog-img">
-                                    <a href="single.html"><img src="images/blog-1.jpg" alt=""></a>
+                                    <a href="single.php"><img src="images/prod1.jpg" alt=""></a>
                                 </div>
                                 <div class="blog-text">
                                     <div class="blog-tag">
-                                        <a href="#"><h6><small>CODE</small></h6></a>
+                                        <a href="#"><h6><small>Cinematic/Orchestral</small></h6></a>
                                     </div>
                                     <div class="blog-title">
-                                        <a href="single.html"><h4>Amazing Blog Title</h4></a>
+                                        <a href="https://delosmusic.com/"><h4>Delos Production.</h4></a>
                                     </div>
                                     <div class="blog-meta">
-                                        <p class="blog-date">30 May 2016</p> /
-                                        <p class="blog-comment"><a href="">23 Comments</a></p>
+                                        <p class="blog-comment"><a href="">Based in California</a></p>
                                     </div>
                                     <div class="blog-desc">
-                                        <p>Lorem ipsum dolor sit amet con sectetur adipiscing elit sed do eiu smod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>by John Doe</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="google.com">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="google.com">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
+                                        <p>The Delos label was founded in 1973 by Amelia S. Haygood (1919–2007), whose stewardship of the company made her a prominent figure in the classical recording industry.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- End of Blog Item -->
-                        <!-- Blog Item -->
-                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="200">
+                         <!-- Blog Item -->
+                         <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
                             <div class="blog-item">
                                 <div class="blog-img">
-                                    <a href="#"><img src="images/blog-2.jpg" alt=""></a>
+                                    <a href="#"><img src="images/download (8).png" alt=""></a>
                                 </div>
                                 <div class="blog-text">
                                     <div class="blog-tag">
-                                        <a href="#"><h6><small>SPORTS</small></h6></a>
+                                        <a href="#"><h6><small>Cinematic/Orchestral</small></h6></a>
                                     </div>
                                     <div class="blog-title">
-                                        <a href="#"><h4>Amazing Blog Title</h4></a>
+                                        <a href="https://www.cedillerecords.org/"><h4>Cedille Records.</h4></a>
                                     </div>
                                     <div class="blog-meta">
-                                        <p class="blog-date">30 May 2016</p> /
-                                        <p class="blog-comment"><a href="">23 Comments</a></p>
+                                        <p class="blog-comment"><a href="">Based in Chicago</a></p>
                                     </div>
                                     <div class="blog-desc">
-                                        <p>Lorem ipsum dolor sit amet con sectetur adipiscing elit sed do eiu smod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>by John Doe</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="google.com">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="google.com">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Blog Item -->
-                        <!-- Blog Item -->
-                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="400">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <a href="#"><img src="images/blog-3.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-text">
-                                    <div class="blog-tag">
-                                        <a href="#"><h6><small>ECONOMY</small></h6></a>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="#"><h4>Amazing Blog Title</h4></a>
-                                    </div>
-                                    <div class="blog-meta">
-                                        <p class="blog-date">30 May 2016</p> /
-                                        <p class="blog-comment"><a href="">23 Comments</a></p>
-                                    </div>
-                                    <div class="blog-desc">
-                                        <p>Lorem ipsum dolor sit amet con sectetur adipiscing elit sed do eiu smod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>by John Doe</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="google.com">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="google.com">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
+                                        <p>A nonprofit record label, Cedille’s mission is to produce and disseminate audiophile recordings presenting the finest classical music performers and composers in and from Chicago. </p>
                                     </div>
                                 </div>
                             </div>

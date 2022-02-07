@@ -26,19 +26,19 @@ if(isset($_POST['login']))
 		else
 		{
             echo("<script>alert('Password is Wrong! Please try again!')</script>");
-            echo("<script>window.location = '../index.html'</script>");
+            echo("<script>window.location = '../index.php'</script>");
 		}
 	}
 	else
 	{
 		echo("<script>alert('Please Sign Up! Username Not Found!')</script>");
-        echo("<script>window.location = '../index.html'</script>");
+        echo("<script>window.location = '../index.php'</script>");
 	}
 }
 // else
 // {
 //     echo("<script>alert('Undefined Action!')</script>");
-//     echo("<script>window.location = '../index.html'</script>");
+//     echo("<script>window.location = '../index.php'</script>");
 // }
 
 ?>
