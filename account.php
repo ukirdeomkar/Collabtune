@@ -1,7 +1,11 @@
 
 <?php
 include('./php/login.php');
-@$session = $_SESSION['email_id'] or die("SESSION Expired !! Login Again");
+@$session = $_SESSION['email_id'] ;
+if(@$session == false){
+    echo("<script>alert('Session Expired !! Please Login agian')</script>");
+    echo("<script>window.location = './index.php'</script>");
+}
 $query = mysqli_query($Connect, "SELECT * FROM `user` WHERE `email_id`='$session'");
 $row = mysqli_fetch_assoc($query);
 $artist_name = $row['artist_name'];
@@ -94,7 +98,7 @@ $link = $row['link'];
                     <a class="nav-link" href="home.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">Forum</a>
+                    <a class="nav-link" href="forum.php">Forum</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="recordlabel.php">Record labels</a>
@@ -117,21 +121,17 @@ $link = $row['link'];
   <div class="container text-center">
     <h1 class="display-2 mb-4">My Account</h1>
   </div>
-</div>	<!-- Blog Section -->
+</div>
 <section id="blog" class="bg-grey">
     <div class="container">
         <div class="section-content">
             <div class="title-wrap mb-5" data-aos="fade-up">
-                <!-- <h2 class="section-title">Latest <b>news</b></h2> -->
-                <!-- <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p> -->
-            </div>
-            <!-- Student Profile -->
+                 </div>
+            
             <div class="container">
               <div class="main-body">
               
-                    <!-- Breadcrumb -->
-
-                    <!-- /Breadcrumb -->
+                 
               
                     <div class="row gutters-sm">
                       <div class="col-md-4 mb-3">
@@ -241,7 +241,7 @@ $link = $row['link'];
         </div>
     </div>
 </section>
-<!-- End of Blog Section -->
+
           <!-- External JS -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
 	<script src="vendor/bootstrap/popper.min.js"></script>

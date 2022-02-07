@@ -1,4 +1,3 @@
-
 <?php
 include('./php/login.php');
 @$session = $_SESSION['email_id'] ;

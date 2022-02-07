@@ -1,25 +1,13 @@
 <?php
 include('./php/login.php');
-@$session = $_SESSION['email_id'] or die("SESSION Expired !! Login Again");
+@$session = $_SESSION['email_id'] ;
+if(@$session == false){
+    echo("<script>alert('Session Expired !! Please Login agian')</script>");
+    echo("<script>window.location = './index.php'</script>");
+}
 $query = mysqli_query($Connect, "SELECT * FROM `user` WHERE `email_id`='$session'");
 $row = mysqli_fetch_assoc($query);
 $query1 = $query = mysqli_query($Connect, "SELECT * FROM `user` WHERE `email_id`!='$session'");
-// while($row1=mysqli_fetch_array($query1) ){
-//     $username_display = $row1['user_username'];
-//     $artist_name_display = $row1['artist_name'];
-//     $contact_display = $row1['contact'];
-//     $link_display = $row1['link'];
-//     $genre_display = $row1['genre'];
-//     $profile_pic =$row1['profile_pic'];
-//     $profile_img_display = './php/uploads/'.$profile_pic;
-//     if ($profile_pic == ''){
-//       $profile_img_display = './images/blank_profile.png';
-//     }
-//     $bio_display = $row1['bio'];
-
-
-//     $i++;
-// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -124,10 +112,10 @@ $query1 = $query = mysqli_query($Connect, "SELECT * FROM `user` WHERE `email_id`
                 <h2 class="section-title">Collab with your favourite artist!</h2>
     </div>
             <div class="row">
-                <!-- Blog -->
+               
                 <div class="col-md-12 blog-holder">
                     <div class="row">
-                        <!-- Blog Item -->
+                      
                         <?php 
                         $i=1;
                         while($row1=mysqli_fetch_array($query1) ){
@@ -155,10 +143,10 @@ $query1 = $query = mysqli_query($Connect, "SELECT * FROM `user` WHERE `email_id`
                                         <a href="#"><h6><small><?php echo $genre_display?></small></h6></a>
                                     </div>
                                     <div class="blog-title">
-                                        <a href="<?php echo $link?>"><h4><?php echo $artist_name_display?></h4></a>
+                                        <a href="<?php echo $link_display?>"><h4><?php echo $artist_name_display?></h4></a>
                                     </div>
                                     <div class="blog-meta">
-                                        <p class="blog-comment"><a href=""><?php echo $username_display?></a></p>
+                                        <p class="blog-comment"><a href="<?php echo $contact_display?>"><?php echo $username_display?></a></p>
                                     </div>
                                     <div class="blog-desc">
                                         <p><?php echo $bio_display?></p>
