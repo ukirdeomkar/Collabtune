@@ -31,7 +31,7 @@
 	<div class="boxed-page">
 		<nav id="header-navbar" class="navbar navbar-expand-lg py-4">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center text-white" href="/">
+        <a class="navbar-brand d-flex align-items-center text-white" href="home.php">
             <h3 class="font-weight-bolder mb-0">CollabTune</h3>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,57 +43,24 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">Forum</a>
+                    <a class="nav-link" href="forum.php">Forum</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.php">Record labels</a>
+                    <a class="nav-link" href="recordlabel.php">Record labels</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.php"> Account</a>
+                    <a class="nav-link" href="account.php"> Account</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
-                <!-- <li class="nav-item">
-                <li class="nav-item">
-                    <a id="side-search-open" class="nav-link" href="#">
-                        <span class="lnr lnr-magnifier"></span>
-                    </a>
-                </li> -->
+  
 
             </ul>
         </div>
     </div>
 </nav>
 
-<div id="side-nav" class="sidenav">
-	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
-	
-	<div class="sidenav-content">
-		<p>
-			Kuncen WB1, Wirobrajan 10010, DIY
-		</p>
-		<p>
-			<span class="fs-16 primary-color">(+68) 120034509</span>
-		</p>
-		<p>info@yourdomain.com</p>
-	</div>
-</div><div id="side-search" class="sidenav">
-	<a href="javascript:void(0)" id="side-search-close">&times;</a>
-	<div class="sidenav-content">
-		<form action="">
-
-			<div class="input-group md-form form-sm form-2 pl-0">
-			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
-			  <div class="input-group-append">
-			    <button class="input-group-text red lighten-3" id="basic-text1">
-			    	<span class="lnr lnr-magnifier"></span>
-			    </button>
-			  </div>
-			</div>
-
-		</form>
-	</div>
 	
 </div>		<div class="jumbotron jumbotron-single d-flex align-items-center" style="background-image: url(images/photo-10.jpg)">
   <div class="container text-center">

@@ -11,6 +11,7 @@ $user_password = $data['user_password'];
 $artist_name_default = $data['artist_name'];
 $contact_default = $data['contact'];
 $link_default = $data['link'];
+$bio_default = $data['bio'];
 $genre_default = $data['genre'];
 
 
@@ -19,6 +20,7 @@ $username_new = $_POST['username'];
 $artist_name_new = $_POST['artist_name'];
 $contact_new = $_POST['contact'];
 $link_new = $_POST['link'];
+$bio_new = $_POST['bio'];
 $genre_new = $_POST['genre'];
 $password_check =$_POST['password'];
 
@@ -34,20 +36,19 @@ if($contact_new==''){
 if($link_new==''){
     $link_new =$link_default;
 }
+if($bio_new==''){
+    $bio_new =$bio_default;
+}
 if($genre_new==''){
     $genre_new =$genre_default;
 }
 
 if(isset($_POST['edit_profile'])){
-    echo $artist_name_new .'<br>';
-    echo $username_new.'<br>';
-    echo $contact_new.'<br>';
-    echo $link_new.'<br>';
-    echo $genre_new.'<br>';
+
 
     if($user_password == $password_check){
         echo 'can be editted';
-        $query = mysqli_query($Connect,"UPDATE `user` SET `user_username`='$username_new',`artist_name`='$artist_name_new',`contact`='$contact_new',`link`='$link_new',`genre`='$genre_new' WHERE `email_id` = '$session'");
+        $query = mysqli_query($Connect,"UPDATE `user` SET `user_username`='$username_new',`artist_name`='$artist_name_new',`contact`='$contact_new',`link`='$link_new',`bio`='$bio_new',`genre`='$genre_new' WHERE `email_id` = '$session'");
         if($query == true){
             echo("<script>alert('Profile Updated Succesfully')</script>");
 
