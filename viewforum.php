@@ -129,11 +129,12 @@ while($row =mysqli_fetch_array($query)){
         <p class="card-text"><small class="text-muted"><?php echo $time ?></small></p>
         <?php
         if($email_id == $session){
-            echo'
-            <form method="post" name="delete">
-            <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="delete"> Delete </button>
-            </form>
-            ';
+            // <form method="post" name="delete">
+            // <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="delete"> 
+            // echo $message_id;
+            // echo </button>
+            // </form>
+
 
         }
         ?>
