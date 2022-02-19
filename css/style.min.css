@@ -36,7 +36,8 @@ a:hover {
   color: #333399; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+ }
 
 .bg-fixed {
   background-size: cover; }
@@ -689,6 +690,16 @@ section {
 
 .blog-content .img.float-right {
   margin: 15px 0 15px 15px; }
+.blog-desc p{
+  height: 100px;
+  overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.blog-desc p::-webkit-scrollbar{
+  display: none;
+}
+
 
 /* input[type="file"] {
     display: unset;

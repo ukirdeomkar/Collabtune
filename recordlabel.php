@@ -94,7 +94,7 @@ if(@$session == false){
                         <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
                             <div class="blog-item">
                                 <div class="blog-img">
-                                    <a href="single.php"><img src="images/prod1.jpg" alt=""></a>
+                                   <img src="images/prod1.jpg" alt="">
                                 </div>
                                 <div class="blog-text">
                                     <div class="blog-tag">
@@ -116,7 +116,7 @@ if(@$session == false){
                          <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
                             <div class="blog-item">
                                 <div class="blog-img">
-                                    <a href="#"><img src="images/download (8).png" alt=""></a>
+                                   <img src="images/download (8).png" alt="">
                                 </div>
                                 <div class="blog-text">
                                     <div class="blog-tag">
@@ -134,9 +134,73 @@ if(@$session == false){
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                   <img src="images/stmpd.jpeg" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-tag">
+                                        <a href="#"><h6><small>Future house/Experimental</small></h6></a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="https://stmpdrcrds.com/"><h4>STMPD RECORDS</h4></a>
+                                    </div>
+                                    <div class="blog-meta">
+                                        <p class="blog-comment"><a href="">Based in Netherlands.</a></p>
+                                    </div>
+                                    <div class="blog-desc">
+                                        <p>Stmpd Rcrds is a Dutch electronic dance music record label owned by record producer Martin Garrix, who founded the label on 4 March 2016.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                    </div>
-                </div>
+                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="images/dharma.jpeg" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-tag">
+                                        <a href="#"><h6><small>Big Room</small></h6></a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="https://www.dharmaworldwide.com/"><h4>Dharma Worldwide. </h4></a>
+                                    </div>
+                                    <div class="blog-meta">
+                                        <p class="blog-comment"><a href="">Based in US.</a></p>
+                                    </div>
+                                    <div class="blog-desc">
+                                        <p>It is founded by Niles Dhar (Kshmr). The goal of Dharma Worldwide is to bring underground Indian and Arabic artists into spotlight.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 blog-item-wrapper" data-aos="fade-up">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <img src="images/avie.png" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-tag">
+                                        <a href="#"><h6><small>Classical</small></h6></a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="https://www.avie-records.com/"><h4>Avie Records. </h4></a>
+                                    </div>
+                                    <div class="blog-meta">
+                                        <p class="blog-comment"><a href="">Based in UK.</a></p>
+                                    </div>
+                                    <div class="blog-desc">
+                                        <p>AVIE Records is a UK-based independent classical music recording company founded in 2002 by Simon Foster and Melanne Mueller who devised a unique business model based on artist ownership.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
 
             </div>
         </div>

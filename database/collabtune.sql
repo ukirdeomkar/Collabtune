@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Feb 07, 2022 at 06:37 PM
+-- Generation Time: Feb 19, 2022 at 09:55 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.1.1
 
@@ -36,16 +36,6 @@ CREATE TABLE `message` (
   `message_id` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `message`
---
-
-INSERT INTO `message` (`email_id`, `topic_id`, `topic_name`, `topic_message`, `time`, `message_id`) VALUES
-('ukirdeomkar4@gmail.com', '62014fb581d47', '', 'hello\r\n', '2022-02-07 18:28:04', '620156a479bb8'),
-('ukirdeomkar4@gmail.com', '62014fb581d47', '', 'hye\r\n', '2022-02-07 18:28:31', '620156bf1c63f'),
-('ukirdeomkar4@gmail.com', '62014fb581d47', '', 'helelos', '2022-02-07 18:28:38', '620156c6b3664'),
-('king@gmail.com', '62014fb581d47', '', 'this is great', '2022-02-07 18:31:06', '6201575a8e393');
-
 -- --------------------------------------------------------
 
 --
@@ -57,13 +47,6 @@ CREATE TABLE `topic` (
   `email_id` varchar(100) NOT NULL,
   `topic_name` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `topic`
---
-
-INSERT INTO `topic` (`topic_id`, `email_id`, `topic_name`) VALUES
-('62014fb581d47', 'ukirdeomkar4@gmail.com', 'topic 1');
 
 -- --------------------------------------------------------
 
@@ -88,11 +71,14 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_username`, `user_password`, `email_id`, `artist_name`, `contact`, `link`, `genre`, `profile_pic`, `bio`) VALUES
-('Kshitija2001', 'Kshitija', 'bharambekshitija2@gmail.com', 'Kshitija123', 'https://www.instagram.com/_kshitijaaa_/', 'https://open.spotify.com/user/owb2y8mbdidlzu8v9kqwqzm50', 'Hip-hop', '0 (1).jpg', 'Hi My name is kshitija'),
-('Kshitija20', 'Kshitija1', 'ksh.bha.rt19@rait.ac.in', 'Kshitija1', 'https://www.instagram.com/_kshitijaaa_/', 'https://open.spotify.com/user/owb2y8mbdidlzu8v9kqwqzm50', 'Electronic', '', ''),
-('10005025', '1234567', 'sarojborole2@gmail.com', 'kshitija', 'https://www.instagram.com/_kshitijaaa_/', 'https://open.spotify.com/user/owb2y8mbdidlzu8v9kqwqzm50', 'Country', 'avatars-000227160415-hq9z8z-t500x500.jpg', 'Hi My name is kshitija'),
-('ou', 'ou123', 'ukirdeomkar4@gmail.com', 'CHibisou', 'https://www.youtube.com/watch?v=dB6oQ-OeJ5A&ab_channel=CakeCrab', 'https://www.youtube.com/watch?v=dB6oQ-OeJ5A&ab_channel=CakeCrab', 'Rock', 'ou.jpeg', ''),
-('ukirdeomkar4@gmail.com', 'king', 'king@gmail.com', 'king', 'king', 'https://www.youtube.com/watch?v=rsQrVwNUnPc', 'Country', '', '');
+('Nkshtramusic', 'User@123', 'Nkshtramusic@gmail.com', 'Nkshtra Music', 'https://www.instagram.com/nkshtramusic/', 'https://open.spotify.com/artist/7sL7meElI3uhXMtiBXlRWH?si=APtx2NjmRqq8mjb4DWqCRg&nd=1', 'Trap', '1.jpg', '     '),
+('B3ats Infinity ', 'User@123', 'B3atsInfinity@gmail.com', 'B3ats Infinity', 'https://open.spotify.com/artist/3o1eDaIwLDt6NmeRnpMDtY?si=gFu024qTQimyqpXsCxbuJQ&nd=1', 'https://www.instagram.com/b3atsinfinity/', 'Chill', '2.jpg', ''),
+('B Cube', 'User@123', 'Bcube@gmail.com', 'B Cube', 'https://www.instagram.com/b.cube/ ', 'https://www.youtube.com/watch?v=XrIZ1zc9kW4 ', 'Beatboxer', '8.jpg', ''),
+('Wroc', 'User@123', 'Wroc@gmail.com', 'Wroc', 'https://www.instagram.com/_wroc_/', 'https://open.spotify.com/artist/5QMdDJY9UFJR2bQDEWFGT4', 'Hip-hop', '3.jpg', ''),
+('Priya Nair', 'User@123', 'priyanair@gmail.com', 'Priya Nair', 'https://www.instagram.com/priyanair96/', 'https://open.spotify.com/artist/2NlGcK8jGtV1bOShfBtq3J ', 'Vocalist', '7.jpg', ''),
+('Redlion', 'User@123', 'Redlion@gmail.com', 'Redlion', 'https://www.instagram.com/red25lion/', 'https://www.youtube.com/channel/UCM1-kt1Zcg1wsMAHjJcMM8A', 'Rapper', '4.jpg', ''),
+('Sagar Palkar', 'User@123', 'sagarpalkar@gmail.com', 'Sagar', 'https://www.instagram.com/priyanair96/', 'https://open.spotify.com/artist/2NlGcK8jGtV1bOShfBtq3J ', 'Guitarist', '6.jpg', ''),
+('Noiz X', 'User@123', 'noizx@gmail.com', 'Noiz X', 'https://www.instagram.com/noiz_x/', 'https://www.youtube.com/watch?v=0KOhHHUVre8', 'Electronic', '5.jpg', '');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

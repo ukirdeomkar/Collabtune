@@ -81,10 +81,16 @@
 							<option value="Classical">Classical</option>
 							<option value="Country">Country</option>
 							<option value="Electronic">Electronic</option>
-							<option value="Folk"> Folk</option>
+							<option value="Vocalist"> Vocalist</option>
 							<option value="Hip-hop">Hip-hop</option>
-							<option value="Jazz">Jazz</option>
+							<option value="Guitarist">Guitarist</option>
 							<option value="Rock">Rock</option>
+							<option value="Trap">Trap</option>
+							<option value="Beatboxer">Beatboxer</option>
+							<option value="Chill">Chill</option>
+							<option value="Rapper">Rapper</option>
+
+
 						</select>
 						<span class="focus-input100" data-placeholder="&#xf3ab;"></span>
 					</div>

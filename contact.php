@@ -82,7 +82,8 @@ if(@$session == false){
             <!-- Section Title -->
             <div class="title-wrap" data-aos="fade-up">
                 <h5 class="section-title">CollabTune-Collaboration Platform For Musicians is developed by Mangesh Dongare.</h5>
-                <p class="section-sub-title">The main purpose of creating this platform is to connect musical artists with each other. </p>
+                <p class="section-sub-title">
+CollabTune is a collaboration platform for musicians created, with a vision of uniting musical artists of various genres and types. </p>
             </div>
             <!-- End of Section Title -->
             <div class="row">
@@ -102,7 +103,7 @@ if(@$session == false){
                 <div class="col-md-3" data-aos="fade-up" data-aos-delay="600">
                     <span class="lnr lnr-envelope fs-40 py-4 d-block"></span>
                     <h5>EMAIL</h5>
-                    <a href = "mailto: Collabplatformquery@gmail.com">Collabplatformquery@gmail.com</a>
+                    <a href = "mailto: Collabtunequeries@gmail.com">Collabtunequeries@gmail.com</a>
                 </div>
 
             </div>

@@ -237,9 +237,14 @@ $link = $row['link'];
 							<option value="Country">Country</option>
 							<option value="Electronic">Electronic</option>
 							<option value="Folk"> Folk</option>
+              <option value="Vocalist"> Vocalist</option>
 							<option value="Hip-hop">Hip-hop</option>
 							<option value="Jazz">Jazz</option>
 							<option value="Rock">Rock</option>
+              <option value="Trap">Trap</option>
+              <option value="Beatboxer">Beatboxer</option>
+							<option value="Chill">Chill</option>
+              <option value="Rapper">Rapper</option>
 						</select>
                               </div>
                             </div>
@@ -265,6 +270,8 @@ $link = $row['link'];
                             <div class="row">
                               <div class="col-sm-12">
                                 <button class="btn btn-info " name="edit_profile">Submit</button>
+                                <a class="btn btn-info "  href="./php/logout.php">Logout</a>
+
 
                               </div>
                             </div>
