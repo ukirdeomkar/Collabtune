@@ -11,7 +11,7 @@
      $link=$_POST['link'];                                                                                         
      $password=$_POST['password'];
      $genre = $_POST['genre'];
-    //  $hash = password_hash($password, PASSWORD_DEFAULT);
+     $hash = password_hash($password, PASSWORD_DEFAULT);
 
      
      $query1 = " SELECT * FROM `user` WHERE `user_username` = '$username' ";
@@ -31,7 +31,7 @@
      
      else
      {
-       $query1 = "INSERT INTO `user`(`user_username`, `artist_name`, `email_id`, `contact`, `link` ,`user_password`,`genre`,`profile_pic`,`bio`) VALUES ('$username','$artist_name','$email','$contact','$link','$password','$genre','','')";
+       $query1 = "INSERT INTO `user`(`user_username`, `artist_name`, `email_id`, `contact`, `link` ,`user_password`,`genre`,`profile_pic`,`bio`) VALUES ('$username','$artist_name','$email','$contact','$link','$hash','$genre','','')";
        $res1 = mysqli_query($Connect,$query1);
    
        echo("<script>alert('You have Sucessfully Registred!')</script>");

@@ -235,6 +235,7 @@ $link = $row['link'];
 							<option value="Blues">Blues</option>
 							<option value="Classical">Classical</option>
 							<option value="Country">Country</option>
+              <option value="Guitarist">Guitarist</option>
 							<option value="Electronic">Electronic</option>
 							<option value="Folk"> Folk</option>
               <option value="Vocalist"> Vocalist</option>
@@ -278,62 +279,6 @@ $link = $row['link'];
                           </div>
                         </div>
           
-                        <!-- <div class="row gutters-sm">
-                          <div class="col-sm-6 mb-3">
-                            <div class="card h-100">  
-                              <div class="card-body">
-                                <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
-                                <small>Web Design</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <small>Website Markup</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <small>One Page</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <small>Mobile Template</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <small>Backend API</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-6 mb-3">
-                            <div class="card h-100">
-                              <div class="card-body">
-                                <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>
-                                <small>Web Design</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <small>Website Markup</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 72%" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <small>One Page</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <small>Mobile Template</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <small>Backend API</small>
-                                <div class="progress mb-3" style="height: 5px">
-                                  <div class="progress-bar bg-primary" role="progressbar" style="width: 66%" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div> -->
           
           
           
@@ -342,43 +287,6 @@ $link = $row['link'];
           
                   </div>
               </div>
-          
-                        <!-- End of Blog Item -->
-                        <!-- Blog Item -->
-                        <!-- <div class="col-md-4 blog-item-wrapper" data-aos="fade-up" data-aos-delay="200">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <a href="#"><img src="images/blog-2.jpg" alt=""></a>
-                                </div>
-                                <div class="blog-text">
-                                    <div class="blog-tag">
-                                        <a href="#"><h6><small>SPORTS</small></h6></a>
-                                    </div>
-                                    <div class="blog-title">
-                                        <a href="#"><h4>Amazing Blog Title</h4></a>
-                                    </div>
-                                    <div class="blog-meta">
-                                        <p class="blog-date">30 May 2016</p> /
-                                        <p class="blog-comment"><a href="">23 Comments</a></p>
-                                    </div>
-                                    <div class="blog-desc">
-                                        <p>Lorem ipsum dolor sit amet con sectetur adipiscing elit sed do eiu smod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    </div>
-                                    <div class="blog-author">
-                                        <p>by John Doe</p>
-                                    </div>
-                                    <div class="blog-share-wrapper">
-                                        <a class="blog-share" href="google.com">
-                                            <i class="fab fa-facebook-square"></i>
-                                        </a>
-                                        <a class="blog-share" href="google.com">
-                                            <i class="fab fa-twitter-square"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                        <!-- End of Blog Item -->
                     </div>
                 </div>
                 <!-- End of Blog -->

@@ -3,6 +3,8 @@
  include('./Connect.php');
  include('login.php');
  @$session = $_SESSION['email_id'] or die('Login Again! error has occured') ;
+ date_default_timezone_set('Asia/Kolkata');
+
  
  if(isset($_POST['create']))
   {

@@ -5,6 +5,7 @@ if(@$session == false){
     echo("<script>alert('Session Expired !! Please Login agian')</script>");
     echo("<script>window.location = './index.php'</script>");
 }
+date_default_timezone_set('Asia/Kolkata');
 
 ?>
 <!DOCTYPE html>

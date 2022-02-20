@@ -7,6 +7,7 @@ if(@$session == false){
 }
 $topic_id = $_GET['topic_id'];
 $query = mysqli_query($Connect, "SELECT * FROM `message` WHERE `topic_id`='$topic_id'");
+date_default_timezone_set('Asia/Kolkata');
 
 
 ?>
